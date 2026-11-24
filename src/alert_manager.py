@@ -14,13 +14,12 @@ print("SOC ALERT MANAGEMENT SYSTEM")
 print("---------------------------")
 
 print("Original Alerts:")
-print(alerts)
+for alert in alerts:
+	print(alert)
 
 print("Total Alerts:")
 print(len(alerts))
 
 print("Backup Alerts:")
-print(backup)
-
-
-
+for alert in backup:
+	print(alert)
